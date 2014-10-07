@@ -1,4 +1,11 @@
 時間割をical形式で吐くやつ
 
-- MEIJI_ID に自分の学籍番号
-- MEIJI_PASS にパスワード入れて実行
+Setup:
+```bash
+bundle install --path vendor/bundle
+```
+
+Usage:
+```bash
+bundle exec ruby ./app.rb --id USERID --pass PASSWD [--start DATE] [--end DATE] [--output FILE]
+```
